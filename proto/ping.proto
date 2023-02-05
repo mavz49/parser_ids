@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option go_package = "github.com/mavz49/metadata";
+
+package helloworld;
+
+// The greeting service definition.
+service Greeter {
+  // Sends a greeting
+  rpc SayPing (PingRequest) returns (PingReply) {}
+}
+
+// The request message containing the user's name.
+message PingRequest {
+  string name = 1;
+}
+
+// The response message containing the greetings
+message PingReply {
+  string message = 1;
+}

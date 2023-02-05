@@ -1,0 +1,6 @@
+dirPath: ""
+serverHost: "http://localhost:8082"
+serverHostMetadata: "http://localhost:8083"
+tocken: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NzQ2NTg2NjAsImlhdCI6MTY3NDA2ODI2MCwiVXNlciI6Im1hdnoifQ.7ERil-aqCkgd0iLwef2o-C4RTRBBzFbK4fswAL1see4"
+bulkCount: 1000
+parserJson: "jsonAllItemids.json"
